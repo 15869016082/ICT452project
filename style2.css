@@ -1,0 +1,56 @@
+.image-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 10px;
+  }
+  
+  .image-container img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  body {
+    background-color: #1c41a8;/*背景颜色*/
+  }
+p {
+text-align: center;
+font-weight: bold;
+}
+nav {
+  text-align: center;
+  background-color: #000000;
+  margin-left: 200px;
+  margin-right: 200px;
+ }
+ 
+ nav ul {
+  display: inline-block;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+ }
+ 
+ nav ul li {
+  display: inline-block;
+  margin: 0 10px;
+ }
+ 
+ nav ul li a {
+  display: block;
+  padding: 10px;
+  color: #ffffff;
+  text-decoration: none;
+ }
+ 
+ nav ul li a:hover {
+  color: #07daff;
+  background-color: #b44242;
+ }
+ .footer{ position: fixed;
+  right: 0;
+ bottom: 0;
+  width: 100%;
+  background-color: rgb(150, 51, 109);
+ color: white;
+  text-align: center;
+ }
